@@ -1,9 +1,15 @@
 $(document).ready(function(){
+	
+/*	$('h2').click(function() {
+		alert("funcionou")
+  });*/
+
+
 	//get total of questions
 	var $questionNumber = $('h2').length;
 	console.log($questionNumber);
 	//caching final score
-	var $totalScore=0;
+	var $totalScore=5;
 
 	$('li').click(function(){
 		//caching variables
